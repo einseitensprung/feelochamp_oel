@@ -15,6 +15,13 @@ Konkret:
 - Commit-Messages kurz und auf Deutsch oder Englisch (konsistent mit vorherigen Commits), beschreiben **was** sich geändert hat, nicht nur "update".
 - Diese Regel gilt als dauerhafte Freigabe: Commit und Push nach jeder Änderung erfolgen **ohne Rückfrage**.
 
+### Geltungsbereich: nur `/Users/stephanfossl/feelochamp_oel`
+
+- Die Auto-Commit/Push-Freigabe gilt **ausschließlich** für das lokale Verzeichnis `/Users/stephanfossl/feelochamp_oel` und Pushes nach `origin` (`feelochamp_oel`).
+- Vor jedem Commit/Push prüfen: `git rev-parse --show-toplevel` muss `/Users/stephanfossl/feelochamp_oel` ergeben und `git remote get-url origin` muss `https://github.com/einseitensprung/feelochamp_oel.git` sein. Stimmt eines nicht, **nicht** committen/pushen, sondern den Nutzer fragen.
+- Andere lokale Ordner/Repos (z. B. `feelochamp_db`, `feelochamp_el`, `feelochamp_nl`, `feelochamp`) werden **nie** automatisch committed oder gepusht — auch nicht, wenn dieses Repo dorthin kopiert oder geklont wurde.
+- Nur Dateien innerhalb dieses Ordners committen; keine Änderungen außerhalb davon.
+
 ### Remotes
 
 Dieses Repo (`feelochamp_oel`) ist eine Kopie von `feelochamp_db` (das wiederum eine Kopie von `feelochamp_el` ist).
