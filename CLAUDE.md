@@ -17,10 +17,10 @@ Konkret:
 
 ### Remotes
 
-Dieses Repo (`feelochamp_db`) ist eine Kopie von `feelochamp_el`.
+Dieses Repo (`feelochamp_oel`) ist eine Kopie von `feelochamp_db` (das wiederum eine Kopie von `feelochamp_el` ist).
 
-- `origin` = `https://github.com/einseitensprung/feelochamp_db.git` — **hierhin wird gepusht** (`git push origin main`).
-- `upstream` = `https://github.com/einseitensprung/feelochamp_el.git` — nur Quelle, **niemals dorthin pushen**.
+- `origin` = `https://github.com/einseitensprung/feelochamp_oel.git` — **hierhin wird gepusht** (`git push origin main`).
+- `upstream` = `https://github.com/einseitensprung/feelochamp_db.git` — nur Quelle, **niemals dorthin pushen**.
 
 ## Build-Workflow
 
