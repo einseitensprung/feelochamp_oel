@@ -522,7 +522,7 @@ body.page-default .programme-head h2{
 .dash-pill.variant-green{ background: linear-gradient(180deg, #34d167, var(--green-dark)); color:#04220f; }
 .dash-pill.variant-amber{ background: linear-gradient(180deg, #ffcf5c, #e8a72e); color:#3a2600; }
 .dash-pill.variant-slate{ background: linear-gradient(180deg, #d9d9d9, #9e9e9e); color:#242424; }
-.dash-pill.variant-cyan{ background: linear-gradient(180deg, var(--cyan), var(--blue)); color: var(--on-gradient); }
+.dash-pill.variant-cyan{ background: linear-gradient(180deg, var(--blue), #00b8c4); color: var(--on-gradient); }
 
 .stat-chip{
   display:inline-flex; align-items:center; gap:.25rem;
