@@ -354,7 +354,8 @@
       '<span class="cal-ev-title">' + e.title + '</span></span>';
   }
 
-  var state = { ref: new Date(2026, 8, 1), view: 'month' };
+  // Start beim heutigen Datum; clampRef() zieht es außerhalb der Saison auf den ersten/letzten Spielmonat
+  var state = { ref: new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate()), view: 'month' };
 
   function renderMonth(){
     var y = state.ref.getFullYear(), m = state.ref.getMonth();
